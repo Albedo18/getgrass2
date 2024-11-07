@@ -8,6 +8,24 @@ This repository contains the code for `getgrass-bot`, a bot designed to establis
 
 ## Installation
 
+** Termux reposity, copy this command to your Termux on Android or IOS
+
+   ```bash
+   pkg install
+   ```
+   ```bash
+   pkg install nodejs
+   ```
+   ```bash
+   pkg update
+   ```
+   ```bash
+   pkg upgrade
+   ```
+   ```bash
+   pkg install git
+   ```
+
 1. Clone this repository to your local machine:
 
    ```bash
