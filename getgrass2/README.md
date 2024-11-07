@@ -1,23 +1,23 @@
-# getgrass-bot
+# getgrass2
 
-This repository contains the code for `getgrass-bot`, a bot designed to establish WebSocket connections through various HTTP and SOCKS proxies, specifically aimed at farming for Grass Airdrop Season 2.
+This repository contains the code for `getgrass2`, a bot designed to establish WebSocket connections through various HTTP and SOCKS proxies, specifically aimed at farming for Grass Airdrop Season 2.
 
 ## Overview
 
-`getgrass-bot` connects to a specified WebSocket server using both HTTP and SOCKS proxies. It leverages the `ws` library for WebSocket communication and integrates the `https-proxy-agent` and `socks-proxy-agent` libraries for enhanced proxy support. This allows for more versatile and resilient connections, accommodating a wider range of proxy types.
+`getgrass2` connects to a specified WebSocket server using both HTTP and SOCKS proxies. It leverages the `ws` library for WebSocket communication and integrates the `https-proxy-agent` and `socks-proxy-agent` libraries for enhanced proxy support. This allows for more versatile and resilient connections, accommodating a wider range of proxy types.
 
 ## Installation
 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/Madkalex/getgrass-bot.git
+   git clone https://github.com/Madkalex/getgrass2.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd getgrass-bot
+   cd getgrass2
    ```
 
 3. Install the required dependencies using npm:
@@ -30,7 +30,7 @@ This repository contains the code for `getgrass-bot`, a bot designed to establis
 
 1. Obtain your user ID from the Getgrass website:
 
-   - Visit [https://app.getgrass.io/dashboard](https://app.getgrass.io/register/?referralCode=NXZg3yAsUsXKzy2).
+   - Visit [https://app.getgrass.io/dashboard](https://app.getgrass.io/register/?referralCode=6ACtNYTict4Qugb).
    - Open your browser's developer tools (usually by pressing F12 or right-clicking and selecting "Inspect").
    - Go to the "Console" tab.
    - Paste the following command and press Enter:
@@ -55,7 +55,7 @@ This repository contains the code for `getgrass-bot`, a bot designed to establis
    socks5://username:password@hostname:port
    ```
 
-4. To run the `getgrass-bot`, execute the following command in your terminal:
+4. To run the `getgrass2`, execute the following command in your terminal:
 
    ```bash
    npm start
