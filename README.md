@@ -8,6 +8,13 @@ This repository contains the code for `getgrass2`, a bot designed to establish W
 
 ## Installation
 
+** for Terminal on Linux, follow these commands below before to Main Instalation:
+   ```bash
+   sudo apt install npm
+   ```
+   ```bash
+   sudo apt install git
+   ```
 ** Termux reposity, copy this command to your Termux on Android or IOS
 
    ```bash
