@@ -3,13 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 const PROXY_SOURCES = {
-  'SERVER 1': 'https://files.ramanode.top/airdrop/grass/server_1.txt',
-  'SERVER 2': 'https://files.ramanode.top/airdrop/grass/server_2.txt',
-  'SERVER 3': 'https://files.ramanode.top/airdrop/grass/server_3.txt',
-  'SERVER 4': 'https://files.ramanode.top/airdrop/grass/server_4.txt',
-  'SERVER 5': 'https://files.ramanode.top/airdrop/grass/server_5.txt',
-  'SERVER 6': 'https://files.ramanode.top/airdrop/grass/server_6.txt',
-};
+  'SERVER 1': 'https://raw.githubusercontent.com/Albedo18/shared-cloud9/refs/heads/main/plugin/source/editor/ip.txt',};
 
 async function fetchProxies(url) {
   try {
